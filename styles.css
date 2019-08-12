@@ -1,0 +1,358 @@
+html{ box-sizing: border-box;}
+*, *:before, *:after { box-sizing: inherit;}
+*{ margin: 0; padding: 0;}
+body{ background-color: #eee;}
+.contenido
+{
+ max-width: 1200px;
+ margin: 0 auto;
+}
+div.nav
+{
+ text-align: right;
+ width: 100%;
+ background-color: transparent;
+ padding: 0 20px;
+ transition: all .3s ease;
+}
+nav
+{
+ display: inline-block;
+}
+nav ul
+{
+ margin: 0;
+ padding:  0;
+ text-align: center;
+}
+nav li 
+{
+ margin: 0;
+ padding: 0;
+ display: inline-block;
+}
+nav li a
+{
+ font-family: 'Quicksand', sans-serif;
+ display: block;
+ padding: 20px;
+ margin: 0;
+ color: #353535;
+ text-decoration: none;
+ font-weight: bold;
+ transition: all 0.6s ease;
+}
+nav li a:hover
+{
+ text-decoration: underline;
+ color: #0000007a;
+ font-weight: bold;
+}
+div.hero
+{
+ background-image: url("https://i.postimg.cc/1XvKsctr/hero1.png");
+ height: 100vh;
+ background-position: top center;
+ background-size: cover;
+}
+.text-1{
+ font-family: 'Amatic SC', cursive;
+ text-align: center; 
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ background-color: #5a5a5a;
+ color: #eee;
+ width: 100%;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+.text-1 h1
+{
+ font-size: 5.0em;
+}
+.text-1 p
+{
+ font-size: 2.0em;
+}
+.fin-home
+{
+ text-align: center;
+ bottom:0;
+ font-size:3em;
+ cursor:pointer;
+ position:absolute;
+ width: 100%;
+}
+div.acercade
+{
+ width:100%;
+ height: 100%;
+ background-color: #353535;
+}
+.flecha
+{
+ padding-top: 15px;
+ text-align: center;
+ font-size:3em;
+ cursor:pointer;
+}
+.flecha-abajo
+{
+ text-align: center;
+ font-size:3em;
+ cursor:pointer;
+ margin-top: 20px;
+}
+div.hero2 h1
+{
+ text-align: center;
+ font-family: 'Josefin Sans', sans-serif;
+ color: #129a77;
+ font-size: 3.0em;
+ font-weight: bold;
+ margin-top: -10px;
+ width: 100%;
+}
+.border-about {
+ border-bottom: 1px solid #A4A4A4;
+ width: 20%;
+ margin: 0 auto 10px auto;
+}
+div.hero-perfil 
+{
+ text-align: center;
+}
+ div.hero-perfil img
+ {
+  width: 55%;
+  border-radius: 50%;
+  margin-top: 10px;
+ }
+
+@media only screen and (min-width: 768px)
+{
+ div.hero-perfil img
+ {
+  width: 55%;
+  border-radius: 50%;
+  margin-top: 10px;
+ }
+}
+@media only screen and (min-width: 992px)
+{
+  div.hero-perfil img
+ {
+  width: 17%;
+  border-radius: 50%;
+  margin-top: 10px;
+ }
+}
+div.texto-perfil p
+{
+ font-family: 'Quicksand', sans-serif;
+ color: #eee;
+ font-size: 1.5em;
+ margin-top: 20px;
+ padding: 5px 20px;
+ text-align: center;
+ margin-top: -5px;
+}
+div.texto-perfil span.saludo
+{
+ font-size: 1.5em;
+ color: #129a77;
+ font-weight: bold;
+}
+div.skill
+{
+text-align: center;
+color: #eee;
+}
+div.skill::after
+{
+ clear: both;
+ content: '';
+ display: block;
+}
+div.status
+{
+ float: left;
+ width: 20%;
+}
+div.status p
+{
+ font-family: 'Quicksand', sans-serif;
+ margin-bottom: -3px;
+ color: #eee;
+}
+div.status progress{
+ width:70%;
+ height:5px;
+}
+div.portafolio
+{
+ width:100%;
+ height: 100%;
+ background-color: #129a77;
+}
+div.hero3 h1
+{
+ text-align: center;
+ font-family: 'Josefin Sans', sans-serif;
+ color: #353535;
+ font-size: 3.0em;
+ font-weight: bold;
+ margin-top: -5px;
+ width: 100%;
+}
+div.example-proyects
+{
+ text-align: center;
+}
+div.example-proyects::after
+{
+ clear: both;
+ content: '';
+ display: block;
+}
+div.proyect
+{
+ width: 83%;
+ height: 100%;
+ margin: 20px auto;
+ border-radius: 10px;
+ background-color: #353535;
+ color: #eee;
+}
+@media only screen and (min-width: 768px)
+{
+ div.proyect
+ {
+  float: left;
+  width: 30%;
+  height: 100%;
+  margin: 20px 10px;
+  border-radius: 10px;
+  background-color: #353535;
+  color: #eee;
+ }
+}
+@media only screen and (min-width: 1205px)
+{
+ div.proyect
+ {
+  float: left;
+  width: 20%;
+  height: 260px;
+  margin: 20px 30px;
+  border-radius: 10px;
+  background-color: #353535;
+  color: #eee;
+ }
+}
+div.proyect img
+{
+ width: 100%;
+ border-radius: 3% 3% 0 0;
+}
+div.proyect h4
+{
+ font-family: 'Josefin Sans', sans-serif;
+}
+div.proyect p
+{
+ font-family: 'Quicksand', sans-serif;
+}
+div.contact
+{
+ width: 100%;
+ height: 100%;
+ background-color: #0517bb;
+}
+div.hero4 h1
+{
+ text-align: center;
+ font-family: 'Josefin Sans', sans-serif;
+ color: #eee;
+ font-size: 3.0em;
+ font-weight: bold;
+ margin-top: -5px;
+ width: 100%;
+}
+div.contacto
+{
+ text-align: center;
+ color: #eee;
+ margin-bottom: 10px;
+}
+div.contacto::after
+{
+ clear: both;
+ content: '';
+ display: block;
+}
+div.entrada
+{
+ float: left;
+ margin-top: 20px;
+ width: 100%;
+}
+@media only screen and (min-width: 768px)
+{
+ div.entrada
+ {
+  float: left;
+  margin-top: 20px;
+  width: 50%;
+ }
+ div.entrada p
+{
+ font-family: 'Josefin Sans', sans-serif;
+ font-size: 2.0em;
+}
+}
+div.entrada i
+{
+ font-size: 4.0em;
+ margin-bottom: 10px;
+}
+div.entrada p
+{
+ font-family: 'Josefin Sans', sans-serif;
+ font-size: 1.5em;
+}
+div.social
+{
+ width: 100%;
+ height: 100%;
+ background-color: #000000;
+ text-align: center;
+}
+div.social::after
+{
+ clear: both;
+ content: '';
+ display: block;
+}
+div.link
+{
+ margin: 0 auto;
+ width: 25%;
+}
+div.link a
+{
+ float: left;
+ color: #eee;
+ width: 25%;
+ margin: 20px auto;
+ padding: 0px 10px;
+}
+
+/*
+@media only screen and (min-width: 480px)
+@media only screen and (min-width: 768px)
+@media only screen and (min-width: 992px)
+*/
+
