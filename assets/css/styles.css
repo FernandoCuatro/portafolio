@@ -715,7 +715,7 @@ div.owl-nav .owl-next {
 }
 
 div.item{
-	width: 400px;
+	width: 300px;
 	display: flex;
 	align-items: center;
 	height: 250px;
@@ -743,11 +743,11 @@ div.item-detalles {
 	background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%);
 	display: flex;
 	transition: 450ms all;
-	font-size: 1.2em;
+	font-size: 1em;
 	position: absolute;
 	flex-direction: column;
 	justify-content: flex-end;
-	padding: 10px;
+	padding: 5px;
 	right: 0;
 	top: 0;
 	bottom: 0;
@@ -833,12 +833,12 @@ div.hero-4 h1 {
 	font-weight: 700;
 	width: 100%;
 	margin-bottom: 10px;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 ul.diplomas {
 	width: 100%;
-	margin-bottom: 75px;
+    margin-bottom: 90px;
 	height: 30vh;
 }
 li.diplomas {
@@ -878,6 +878,16 @@ div.diploma-contenedor img {
 		margin-bottom: 60px;
 		height: 50vh;
 	}
+	div.item{
+		width: 400px;
+	}
+
+	div.item-detalles {
+		font-size: 1.2em;
+		padding: 10px;
+	}
+
+
 }
 
 @media only screen and (min-width:710px) {
@@ -1065,10 +1075,10 @@ div.timeline-badge {
 }
 
 div.cv {
-    display: flex;
-	margin: 20px 40px;
-    justify-content: flex-end;
-    position: relative;
+	display: flex;
+    margin: 20px 1%;
+	justify-content: flex-end;
+	position: relative;
 }
 
 div.cv a {
@@ -1090,6 +1100,13 @@ div.cv a:hover {
 
 div.flecha-timeline {
 	margin-top: -20px;
+}
+
+
+@media only screen and (min-width:580px) {
+	div.cv {
+		margin: 20px 40px;
+	}
 }
 
 /* fin section timeline */
