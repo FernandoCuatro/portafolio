@@ -138,6 +138,7 @@ div.fin-home {
 	bottom: 0;
 	font-size: 3em;
 	cursor: pointer;
+	position: absolute;
 	width: 100%
 }
 div.fin-home a {color: var(--bg-opaco);}
@@ -189,7 +190,6 @@ div.hero-2 h1 {
 	color: var(--verde-opcl);
 	font-size: 3em;
 	font-weight: 700;
-	margin-top: -10px;
 	width: 100%
 }
 
@@ -649,11 +649,10 @@ div.contenedor-tab > input:nth-child(11):checked ~ div.contenedor-tabs > div.con
 	display: block;
 }
 
-
 div.contenedor-tab > label {
 	position: relative;
 	display: inline-block;
-    padding: 10px 5px 5px 25px;
+	padding: 10px 5px 5px 25px;
 	border: 1px solid transparent;
 	border-bottom: 0;
 	cursor: pointer;
