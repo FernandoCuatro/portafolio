@@ -138,7 +138,6 @@ div.fin-home {
 	bottom: 0;
 	font-size: 3em;
 	cursor: pointer;
-	position: absolute;
 	width: 100%
 }
 div.fin-home a {color: var(--bg-opaco);}
@@ -654,7 +653,7 @@ div.contenedor-tab > input:nth-child(11):checked ~ div.contenedor-tabs > div.con
 div.contenedor-tab > label {
 	position: relative;
 	display: inline-block;
-	padding: 10px 25px 5px;
+    padding: 10px 5px 5px 25px;
 	border: 1px solid transparent;
 	border-bottom: 0;
 	cursor: pointer;
@@ -887,7 +886,9 @@ div.diploma-contenedor img {
 		padding: 10px;
 	}
 
-
+	div.contenedor-tab > label {
+		padding: 10px 25px 5px;
+	}
 }
 
 @media only screen and (min-width:710px) {
