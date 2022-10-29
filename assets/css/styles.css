@@ -190,7 +190,8 @@ div.hero-2 h1 {
 	color: var(--verde-opcl);
 	font-size: 3em;
 	font-weight: 700;
-	width: 100%
+	width: 100%;
+    margin: 0px;
 }
 
 div.border-hx {
