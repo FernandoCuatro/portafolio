@@ -1,4 +1,4 @@
-- Modo oscuro automático con localStorage.
+- Modo oscuro automatico con localStorage.
 
 
 
@@ -7,4 +7,4 @@
 
 
 
-Última actualización octubre, 2022.
+Ultima actualizacion octubre, 2022.
