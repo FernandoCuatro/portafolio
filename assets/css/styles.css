@@ -491,7 +491,8 @@ div.contenedor-mas a:hover {
 }
 
 span.contenido-oculto {
-  display: none;
+	display: none;
+    width: 100%;
 }
 
 /* section about-me media query */
