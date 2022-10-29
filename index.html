@@ -1,455 +1,1689 @@
 <!DOCTYPE html>
 <html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
-<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
-<link rel="icon" type="icon" href="img/logostatus.png">
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css'>
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
-<link rel="stylesheet" href="styles.css">
-<title>F4 | PORTAFOLIO</title>
-</head>
+		<!-- icon for tabs -->
+		<link rel="icon" type="icon" href="assets/img/logostatus.png">
 
-<body>
+		<!-- Externas -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css'>
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+		
+		<!-- Local -->
+		<link rel="stylesheet" href="assets/css/styles.css">
 
-<div class="hero" id="home">
-<div class="nav">
-<nav>
-<ul>
-<li><a href="#home">Home</a></li>
-<li><a href="#about">About me</a></li>
-<li><a href="#portafolio">Portfolio</a></li>
-<li><a href="#timeline">Timeline</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-</nav>
-</div>
-<div class="contenido">
-<div class="text-1">
-<h1 data-shadow='Fernando Cuatro'>Fernando Cuatro</h1>
-<p><div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div></p>
-</div>
-</div>
-<div class="fin-home">
-<a href="#about"><span class="glyphicon glyphicon-chevron-down"></span></a>
-</div>
-</div>
+		<title>F4 | PORTAFOLIO</title>
+	</head>
 
-<div class="acercade" id="about">
-<div class="flecha">
-<a href="#home"><span class="glyphicon glyphicon-chevron-up"></span></a>
-</div>
-<div class="hero2">
-<h1>Sobre Mi</h1>
-<div class="border-about"></div>
-</div>
-<div class="hero-perfil">
-<img src="img/postperfil.jpg" alt="Foto-Perfil">
-</div>
-<div class="contenido">
-<div class="texto-perfil">
-<p><span class="saludo">¡Hola! </span> Mi nombre es Fernando, soy desarrollador de Software, con entusiasmo de seguir
-creciendo en conocimiento; Actualmente resido en El salvador <img src="img/SVL.png" alt="svl" width="40px"> . <br/>
-En general disfuto lo que hago; he desarrollado creatividad y soy lúcido en el ámbito. </p>
-</div>
-<div class="skill">
-<h3>Development</h3>
-<div class="owl-carousel">
-<div class="space">
-<div class="status">
-<img src="img/HTML.png" alt="HTML"><progress min="0" max="100" value="95"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/css.png" alt="CSS"><progress min="0" max="100" value="85"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/php.png" alt="PHP"><progress min="0" max="100" value="80"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/sql.png" alt="SQL"><progress min="0" max="100" value="70"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/Javascript.png" alt="JS"><progress min="0" max="100" value="60"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/c.png" alt="C"><progress min="0" max="100" value="40"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/as.png" alt="AS"><progress min="0" max="100" value="30"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/java.png" alt="JV"><progress min="0" max="100" value="50"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/bootstrap.png" alt="Python"><progress min="0" max="100" value="60"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/Ajax-query.png" alt="JQAJ"><progress min="0" max="100" value="40"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/python.png" alt="Python"><progress min="0" max="100" value="40"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/csharp.png" alt="Python"><progress min="0" max="100" value="20"></progress>
-</div>
-</div>
-</div>
+	<body>
+		<main>
+
+			<section class="hero" id="home">
+				<canvas id="stars"></canvas>
+
+				<nav class="nav">
+					<ul>
+						<li><a href="#home">Inicio</a></li>
+						<li><a href="#about-me">¿Yo?</a></li>
+						<li><a href="#portafolio">Portafolio</a></li>
+						<li><a href="#timeline">Sucesos</a></li>
+						<li><a href="#contact">Contacto</a></li>
+					</ul>
+				</nav>
+
+				<div class="contenido">
+					<div class="text-1">
+						<h1 data-shadow='Fernando Cuatro'>Fernando Cuatro</h1>
+						
+						<div class='console-container'>
+							<span id='text'></span>
+							<div class='console-underscore' id='console'>|</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="fin-home">
+					<a href="#about-me"><span class="glyphicon glyphicon-chevron-down"></span></a>
+				</div>
+			</section>
+
+			<section class="acerca-de" id="about-me">
+				<div class="flecha"><a href="#home"><span class="glyphicon glyphicon-chevron-up"></span></a></div>
+
+				<div class="hero-2">
+					<h1>Sobre mi</h1>
+					<div class="border-hx"></div>
+				</div>
+
+				<div class="hero-perfil">
+					<div class="nacionalidad">
+						<img src="assets/img/svl.png" alt="svl" width="40px">
+					</div>
+
+					<img src="assets/img/perfil-principal.png" alt="Foto-Perfil" class="foto-perfil">
+				</div>
+
+				<div class="contenido">
+					<div class="texto-perfil">
+						<p><span class="saludo">¡Hola! </span> Mi nombre es Fernando, soy una persona creativa y entusiasta, me entusiasman los nuevos retos, aprendo algo nuevo cada día. Siendo persona competente, responsable, honesta, trabajadora, líder, con buena comunicación, seguro de sí mismo, de pensamiento crítico, con buen desempeño en un ambiente laboral.
+						</p>
+					</div>
+
+					<div class="contenido">
+						<div class="habilidades">
+							<div class="contenedor-habilidades">
+								<h3 class="indicador-habilidad">Programación</h3>
+								<ul class="slides">
+
+									<input type="radio" name="radio-btn" id="progra-img-1" checked />
+									<li class="slide-container">
+										<div class="slide">
+											<div class="habilidad">
+												<div class="progreso">
+													<img src="assets/img/programacion/ajax-query.png" alt="Ajax 0 jquery">
+													<p>AJAX - JQUERY</p>
+													<progress min="0" max="100" value="80"></progress>
+												</div>
+											</div>
+										</div>
+
+										<div class="nav"><label for="progra-img-12" class="prev">&#x2039;</label><label for="progra-img-2" class="next">&#x203a;</label></div>
+									</li>
+
+									<input type="radio" name="radio-btn" id="progra-img-2" />
+									<li class="slide-container">
+										<div class="slide">
+											<div class="habilidad">
+												<div class="progreso">
+													<img src="assets/img/programacion/c.png" alt="Lenguaje C">
+													<p>Lenguaje C</p>
+													<progress min="0" max="100" value="70"></progress>
+												</div>
+											</div>
+										</div>
+
+										<div class="nav"><label for="progra-img-1" class="prev">&#x2039;</label><label for="progra-img-3" class="next">&#x203a;</label></div>
+									</li>
+
+									<input type="radio" name="radio-btn" id="progra-img-3" />
+									<li class="slide-container">
+										<div class="slide">
+											<div class="habilidad">
+												<div class="progreso">
+													<img src="assets/img/programacion/csharp.png" alt="csharp">
+													<p>C#</p>
+													<progress min="0" max="100" value="80"></progress>
+												</div>
+											</div>
+										</div>
+
+										<div class="nav"><label for="progra-img-2" class="prev">&#x2039;</label><label for="progra-img-4" class="next">&#x203a;</label></div>
+									</li>
+
+									<input type="radio" name="radio-btn" id="progra-img-4" />
+									<li class="slide-container">
+										<div class="slide">
+											<div class="habilidad">
+												<div class="progreso">
+													<img src="assets/img/programacion/html.png" alt="html">
+													<p>HTML</p>
+													<progress min="0" max="100" value="95"></progress>
+												</div>
+											</div>
+										</div>
+
+										<div class="nav"><label for="progra-img-3" class="prev">&#x2039;</label><label for="progra-img-5" class="next">&#x203a;</label></div>
+									</li>
+
+									<input type="radio" name="radio-btn" id="progra-img-5" />
+									<li class="slide-container">
+										<div class="slide">
+											<div class="habilidad">
+												<div class="progreso">
+													<img src="assets/img/programacion/css.png" alt="CSS">
+													<p>CSS</p>
+													<progress min="0" max="100" value="95"></progress>
+												</div>
+											</div>
+										</div>
+
+										<div class="nav"><label for="progra-img-4" class="prev">&#x2039;</label><label for="progra-img-6" class="next">&#x203a;</label></div>
+									</li>
+
+									<input type="radio" name="radio-btn" id="progra-img-6" />
+									<li class="slide-container">
+										<div class="slide">
+											<div class="habilidad">
+												<div class="progreso">
+													<img src="assets/img/programacion/java.png" alt="java">
+													<p>JAVA</p>
+													<progress min="0" max="100" value="85"></progress>
+												</div>
+											</div>
+										</div>
+
+										<div class="nav"><label for="progra-img-5" class="prev">&#x2039;</label><label for="progra-img-7" class="next">&#x203a;</label></div>
+									</li>
+
+									<input type="radio" name="radio-btn" id="progra-img-7" />
+									<li class="slide-container">
+										<div class="slide">
+											<div class="habilidad">
+												<div class="progreso">
+													<img src="assets/img/programacion/Javascript.png" alt="Javascript">
+													<p>Js</p>
+													<progress min="0" max="100" value="80"></progress>
+												</div>
+											</div>
+										</div>
+
+										<div class="nav"><label for="progra-img-6" class="prev">&#x2039;</label><label for="progra-img-8" class="next">&#x203a;</label></div>
+									</li>
+
+									<input type="radio" name="radio-btn" id="progra-img-8" />
+									<li class="slide-container">
+										<div class="slide">
+											<div class="habilidad">
+												<div class="progreso">
+													<img src="assets/img/programacion/php.png" alt="php">
+													<p>PHP</p>
+													<progress min="0" max="100" value="95"></progress>
+												</div>
+											</div>
+										</div>
+
+										<div class="nav"><label for="progra-img-7" class="prev">&#x2039;</label><label for="progra-img-9" class="next">&#x203a;</label></div>
+									</li>
+
+									<input type="radio" name="radio-btn" id="progra-img-9" />
+									<li class="slide-container">
+										<div class="slide">
+											<div class="habilidad">
+												<div class="progreso">
+													<img src="assets/img/programacion/python.png" alt="python">
+													<p>Python</p>
+													<progress min="0" max="100" value="85"></progress>
+												</div>
+											</div>
+										</div>
+
+										<div class="nav"><label for="progra-img-8" class="prev">&#x2039;</label><label for="progra-img-10" class="next">&#x203a;</label></div>
+									</li>
+
+									<input type="radio" name="radio-btn" id="progra-img-10" />
+									<li class="slide-container">
+										<div class="slide">
+											<div class="habilidad">
+												<div class="progreso">
+													<img src="assets/img/programacion/sql.png" alt="Sql">
+													<p>SQL</p>
+													<progress min="0" max="100" value="90"></progress>
+												</div>
+											</div>
+										</div>
+
+										<div class="nav"><label for="progra-img-9" class="prev">&#x2039;</label><label for="progra-img-11" class="next">&#x203a;</label></div>
+									</li>
+
+									<input type="radio" name="radio-btn" id="progra-img-11" />
+									<li class="slide-container">
+										<div class="slide">
+											<div class="habilidad">
+												<div class="progreso">
+													<img src="assets/img/programacion/asp.net.png" alt="asp.net">
+													<p>ASP.NET</p>
+													<progress min="0" max="100" value="90"></progress>
+												</div>
+											</div>
+										</div>
+
+										<div class="nav"><label for="progra-img-10" class="prev">&#x2039;</label><label for="progra-img-12" class="next">&#x203a;</label></div>
+									</li>
+
+									<input type="radio" name="radio-btn" id="progra-img-12" />
+									<li class="slide-container">
+										<div class="slide">
+											<div class="habilidad">
+												<div class="progreso">
+													<img src="assets/img/programacion/jsp.png" alt="jsp">
+													<p>JSP</p>
+													<progress min="0" max="100" value="90"></progress>
+												</div>
+											</div>
+										</div>
+
+										<div class="nav"><label for="progra-img-11" class="prev">&#x2039;</label><label for="progra-img-1" class="next">&#x203a;</label></div>
+									</li>
+
+									<li class="nav-dots">
+										<label for="progra-img-1" class="nav-dot" id="progra-img-dot-1"></label>
+										<label for="progra-img-2" class="nav-dot" id="progra-img-dot-2"></label>
+										<label for="progra-img-3" class="nav-dot" id="progra-img-dot-3"></label>
+										<label for="progra-img-4" class="nav-dot" id="progra-img-dot-4"></label>
+										<label for="progra-img-5" class="nav-dot" id="progra-img-dot-5"></label>
+										<label for="progra-img-6" class="nav-dot" id="progra-img-dot-6"></label>
+										<label for="progra-img-7" class="nav-dot" id="progra-img-dot-7"></label>
+										<label for="progra-img-8" class="nav-dot" id="progra-img-dot-8"></label>
+										<label for="progra-img-9" class="nav-dot" id="progra-img-dot-9"></label>
+										<label for="progra-img-10" class="nav-dot" id="progra-img-dot-10"></label>
+										<label for="progra-img-11" class="nav-dot" id="progra-img-dot-11"></label>
+										<label for="progra-img-12" class="nav-dot" id="progra-img-dot-12"></label>
+									</li>
+								</ul>
+							</div>
+
+							<div class="mas">
+								<div class="contenedor-mas">
+									<a class="button-mas">¿Ver más?</a>
+								</div>
+
+								<video src="assets/videos/video_1.mp4" autoplay="true" muted="true" loop="true"></video>
+							</div>
+
+							<span class="contenido-oculto">
+
+								<div class="contenedor-habilidades">
+									<h3 class="indicador-habilidad">Software</h3>
+									<ul class="slides">
+
+										<input type="radio" name="radio-btn-4" id="software-img-1" checked />
+										<li class="slide-container">
+											<div class="slide">
+												<div class="habilidad">
+													<div class="progreso">
+														<img src="assets/img/software/access.png" alt="access">
+														<p>MS access</p>
+														<progress min="0" max="100" value="50"></progress>
+													</div>
+												</div>
+											</div>
+
+											<div class="nav"><label for="software-img-11" class="prev">&#x2039;</label><label for="software-img-2" class="next">&#x203a;</label></div>
+										</li>
+
+										<input type="radio" name="radio-btn-4" id="software-img-2" />
+										<li class="slide-container">
+											<div class="slide">
+												<div class="habilidad">
+													<div class="progreso">
+														<img src="assets/img/software/as.png" alt="as">
+														<p>Android Studio</p>
+														<progress min="0" max="100" value="60"></progress>
+													</div>
+												</div>
+											</div>
+
+											<div class="nav"><label for="software-img-1" class="prev">&#x2039;</label><label for="software-img-3" class="next">&#x203a;</label></div>
+										</li>
+
+										<input type="radio" name="radio-btn-4" id="software-img-3" />
+										<li class="slide-container">
+											<div class="slide">
+												<div class="habilidad">
+													<div class="progreso">
+														<img src="assets/img/software/excel.png" alt="excel">
+														<p>MS excel</p>
+														<progress min="0" max="100" value="60"></progress>
+													</div>
+												</div>
+											</div>
+
+											<div class="nav"><label for="software-img-2" class="prev">&#x2039;</label><label for="software-img-4" class="next">&#x203a;</label></div>
+										</li>
+
+										<input type="radio" name="radio-btn-4" id="software-img-4" />
+										<li class="slide-container">
+											<div class="slide">
+												<div class="habilidad">
+													<div class="progreso">
+														<img src="assets/img/software/illustrator.png" alt="illustrator">
+														<p>Illustrator</p>
+														<progress min="0" max="100" value="75"></progress>
+													</div>
+												</div>
+											</div>
+
+											<div class="nav"><label for="software-img-3" class="prev">&#x2039;</label><label for="software-img-5" class="next">&#x203a;</label></div>
+										</li>
+
+										<input type="radio" name="radio-btn-4" id="software-img-5" />
+										<li class="slide-container">
+											<div class="slide">
+												<div class="habilidad">
+													<div class="progreso">
+														<img src="assets/img/software/netbeans.png" alt="netbeans">
+														<p>Netbeans</p>
+														<progress min="0" max="100" value="80"></progress>
+													</div>
+												</div>
+											</div>
+
+											<div class="nav"><label for="software-img-4" class="prev">&#x2039;</label><label for="software-img-6" class="next">&#x203a;</label></div>
+										</li>
+
+										<input type="radio" name="radio-btn-4" id="software-img-6" />
+										<li class="slide-container">
+											<div class="slide">
+												<div class="habilidad">
+													<div class="progreso">
+														<img src="assets/img/software/photoshop.png" alt="photoshop">
+														<p>Photoshop</p>
+														<progress min="0" max="100" value="80"></progress>
+													</div>
+												</div>
+											</div>
+
+											<div class="nav"><label for="software-img-5" class="prev">&#x2039;</label><label for="software-img-7" class="next">&#x203a;</label></div>
+										</li>
+
+										<input type="radio" name="radio-btn-4" id="software-img-7" />
+										<li class="slide-container">
+											<div class="slide">
+												<div class="habilidad">
+													<div class="progreso">
+														<img src="assets/img/software/powerpoint.png" alt="powerpoint">
+														<p>MS Powerpoint</p>
+														<progress min="0" max="100" value="80"></progress>
+													</div>
+												</div>
+											</div>
+
+											<div class="nav"><label for="software-img-6" class="prev">&#x2039;</label><label for="software-img-8" class="next">&#x203a;</label></div>
+										</li>
+
+										<input type="radio" name="radio-btn-4" id="software-img-8" />
+										<li class="slide-container">
+											<div class="slide">
+												<div class="habilidad">
+													<div class="progreso">
+														<img src="assets/img/software/publisher.png" alt="publisher">
+														<p>MS publisher</p>
+														<progress min="0" max="100" value="50"></progress>
+													</div>
+												</div>
+											</div>
+
+											<div class="nav"><label for="software-img-7" class="prev">&#x2039;</label><label for="software-img-9" class="next">&#x203a;</label></div>
+										</li>
+
+										<input type="radio" name="radio-btn-4" id="software-img-9" />
+										<li class="slide-container">
+											<div class="slide">
+												<div class="habilidad">
+													<div class="progreso">
+														<img src="assets/img/software/visio.png" alt="visio">
+														<p>MS visio</p>
+														<progress min="0" max="100" value="80"></progress>
+													</div>
+												</div>
+											</div>
+
+											<div class="nav"><label for="software-img-8" class="prev">&#x2039;</label><label for="software-img-10" class="next">&#x203a;</label></div>
+										</li>
+
+										<input type="radio" name="radio-btn-4" id="software-img-10" />
+										<li class="slide-container">
+											<div class="slide">
+												<div class="habilidad">
+													<div class="progreso">
+														<img src="assets/img/software/word.png" alt="word">
+														<p>MS word</p>
+														<progress min="0" max="100" value="90"></progress>
+													</div>
+												</div>
+											</div>
+
+											<div class="nav"><label for="software-img-9" class="prev">&#x2039;</label><label for="software-img-11" class="next">&#x203a;</label></div>
+										</li>
+
+										<input type="radio" name="radio-btn-4" id="software-img-11" />
+										<li class="slide-container">
+											<div class="slide">
+												<div class="habilidad">
+													<div class="progreso">
+														<img src="assets/img/software/multisim.png" alt="multisim">
+														<p>Multisim</p>
+														<progress min="0" max="100" value="30"></progress>
+													</div>
+												</div>
+											</div>
+
+											<div class="nav"><label for="software-img-10" class="prev">&#x2039;</label><label for="software-img-1" class="next">&#x203a;</label></div>
+										</li>
 
 
-<div>
-<input type="checkbox" class="read-more-state" id="post-2" />
-<label for="post-2" class="read-more-trigger"></label>
+										<li class="nav-dots">
+											<label for="software-img-1" class="nav-dot" id="software-img-dot-1"></label>
+											<label for="software-img-2" class="nav-dot" id="software-img-dot-2"></label>
+											<label for="software-img-3" class="nav-dot" id="software-img-dot-3"></label>
+											<label for="software-img-4" class="nav-dot" id="software-img-dot-4"></label>
+											<label for="software-img-5" class="nav-dot" id="software-img-dot-5"></label>
+											<label for="software-img-6" class="nav-dot" id="software-img-dot-6"></label>
+											<label for="software-img-7" class="nav-dot" id="software-img-dot-7"></label>
+											<label for="software-img-8" class="nav-dot" id="software-img-dot-8"></label>
+											<label for="software-img-9" class="nav-dot" id="software-img-dot-9"></label>
+											<label for="software-img-10" class="nav-dot" id="software-img-dot-10"></label>
+											<label for="software-img-11" class="nav-dot" id="software-img-dot-11"></label>
+										</li>
+									</ul>
+								</div>
 
-<ul class="read-more-wrap" style="list-style: none;">
-<li class="read-more-target">
-<h3>Frequent</h3>
-<div class="owl-carousel">
-<div class="space">
-<div class="status">
-<img src="img/excel.png" alt="ex"><progress min="0" max="100" value="65"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/visio.png" alt="vs"><progress min="0" max="100" value="75"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/powerpoint.png" alt="pw"><progress min="0" max="100" value="80"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/word.png" alt="word"><progress min="0" max="100" value="90"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/publisher.png" alt="pbs"><progress min="0" max="100" value="60"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/access.png" alt="acc"><progress min="0" max="100" value="40"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/dreamweaver.png" alt="dw"><progress min="0" max="100" value="75"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/photoshop.png" alt="photoshop"><progress min="0" max="100" value="75"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/illustrator.png" alt="ill"><progress min="0" max="100" value="50"></progress>
-</div>
-</div>
+								<div class="contenedor-habilidades">
+									<h3 class="indicador-habilidad">Herramientas</h3>
+									<ul class="slides">
 
-</div>
+										<input type="radio" name="radio-btn-3" id="herramientas-img-1" checked />
+										<li class="slide-container">
+											<div class="slide">
+												<div class="habilidad">
+													<div class="progreso">
+														<img src="assets/img/herramientas/anaconda.png" alt="anaconda">
+														<p>Anaconda</p>
+														<progress min="0" max="100" value="50"></progress>
+													</div>
+												</div>
+											</div>
 
-<h3>Other</h3>
-<div class="owl-carousel">
-<div class="space">
-<div class="status">
-<img src="img/atom.png" alt="atom"><progress min="0" max="100" value="75"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/vscode.png" alt="vs"><progress min="0" max="100" value="95"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/anaconda.png" alt="acd"><progress min="0" max="100" value="30"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/spyder.png" alt="spy"><progress min="0" max="100" value="40"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/sublime.png" alt="text"><progress min="0" max="100" value="90"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/netbeans.png" alt="nb"><progress min="0" max="100" value="40"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/jupyter.png" alt="jpt"><progress min="0" max="100" value="60"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/brackets.png" alt="brk"><progress min="0" max="100" value="90"></progress>
-</div>
-</div>
-</div>
+											<div class="nav"><label for="herramientas-img-9" class="prev">&#x2039;</label><label for="herramientas-img-2" class="next">&#x203a;</label></div>
+										</li>
 
-<h3>Idiomas</h3>
-<div class="owl-carousel">
-<div class="space">
-<div class="status">
-<img src="img/es.png" alt="es"><progress min="0" max="100" value="90"></progress>
-</div>
-</div>
-<div class="space">
-<div class="status">
-<img src="img/en.png" alt="en"><progress min="0" max="100" value="25"></progress>
-</div>
-</div>
+										<input type="radio" name="radio-btn-3" id="herramientas-img-2" />
+										<li class="slide-container">
+											<div class="slide">
+												<div class="habilidad">
+													<div class="progreso">
+														<img src="assets/img/herramientas/atom.png" alt="atom">
+														<p>Atom</p>
+														<progress min="0" max="100" value="80"></progress>
+													</div>
+												</div>
+											</div>
 
-</div>
+											<div class="nav"><label for="herramientas-img-1" class="prev">&#x2039;</label><label for="herramientas-img-3" class="next">&#x203a;</label></div>
+										</li>
 
+										<input type="radio" name="radio-btn-3" id="herramientas-img-3" />
+										<li class="slide-container">
+											<div class="slide">
+												<div class="habilidad">
+													<div class="progreso">
+														<img src="assets/img/herramientas/bootstrap.png" alt="bootstrap">
+														<progress min="0" max="100" value="80"></progress>
+													</div>
+												</div>
+											</div>
 
-</li>
-</ul>
+											<div class="nav"><label for="herramientas-img-2" class="prev">&#x2039;</label><label for="herramientas-img-4" class="next">&#x203a;</label></div>
+										</li>
 
-</div>
+										<input type="radio" name="radio-btn-3" id="herramientas-img-4" />
+										<li class="slide-container">
+											<div class="slide">
+												<div class="habilidad">
+													<div class="progreso">
+														<img src="assets/img/herramientas/brackets.png" alt="brackets">
+														<p>Brackets</p>
+														<progress min="0" max="100" value="85"></progress>
+													</div>
+												</div>
+											</div>
 
-</div>
-<div class="flecha-abajo">
-<a href="#portafolio"><span class="glyphicon glyphicon-chevron-down"></span></a>
-</div>
-</div>
-<div class="portafolio" id="portafolio">
-<div class="flecha">
-<a href="#about"><span class="glyphicon glyphicon-chevron-up"></span></a>
-</div>
-<div class="hero3">
-<h1>Portafolio</h1>
-<div class="border-about"></div>
-</div>
-<div class="contenido">
-<div class="example-proyects">
+											<div class="nav"><label for="herramientas-img-3" class="prev">&#x2039;</label><label for="herramientas-img-5" class="next">&#x203a;</label></div>
+										</li>
 
-<h3>Cloud</h3>
-<div class="owl-carousel">
-<a href="">
-<div class="proyect">
-<img src="https://i.postimg.cc/K84zxjyb/blogviaje.png" alt="Blog de Viaje">
-<h4>Blog de viajes.</h4>
-<p>Blog tradiccional de viajes en destinos predeterminados con diferentes apartados.</p>
-</div>
-</a>
-<div class="proyect">
-<img src="https://i.postimg.cc/R0yJjf32/k10.png" alt="K10">
-<h4>k10</h4>
-<p>Sistema automatizado de loteria digital, que se compone de <br /> 15 jugadores online y un administrados.
-</p>
-</div>
-<div class="proyect">
-<img src="https://i.postimg.cc/4yNGP2fG/agenders.png" alt="Agenders">
-<h4>Agenders.</h4>
-<p>Sistema con inicio de sesión, para guardar contactos y notas importantes.</p>
-</div>
-<div class="proyect">
-<img src="https://i.postimg.cc/MKLw0Yhk/notas.png" alt="Notas">
-<h4>Calculo promedios.</h4>
-<p>Sistema para profesores online para el calculo de promedio de alumnos en base a calificaciones.</p>
-</div>
+										<input type="radio" name="radio-btn-3" id="herramientas-img-5" />
+										<li class="slide-container">
+											<div class="slide">
+												<div class="habilidad">
+													<div class="progreso">
+														<img src="assets/img/herramientas/dreamweaver.png" alt="dreamweaver">
+														<p>Dreamweaver</p>
+														<progress min="0" max="100" value="80"></progress>
+													</div>
+												</div>
+											</div>
 
-<div class="proyect">
-<img src="https://i.postimg.cc/Y9N2bmQ6/coferencias.png" alt="Conferencias">
-<h4>Sitio de conferencias.</h4>
-<p>Sitio web desarrollado con PHP, JavaScript y por medio de datos de la base de datos a la vez pagos con
-Paypal.
-</p>
-</div>
-<div class="proyect">
-<img src="https://i.postimg.cc/d0LpJwGY/HFA.png" alt="HFA">
-<h4>Health For All.</h4>
-<p>Sistema de clinicas <br /> orientado en la reservación de la cita, y administración.</p>
-</div>
-<div class="proyect">
-<img src="https://i.postimg.cc/bYCf8TYG/votaciones.png" alt="Votaciones">
-<h4>Votaciones System.</h4>
-<p>Calcula las el numero de votos en <br /> las partes determinadas, dando un porcentaje en el calculo.</p>
-</div>
-<div class="proyect">
-<img src="https://i.postimg.cc/wBcnr5bj/loading.jpg" alt="Loading">
-<h4>Loading.</h4>
-<p>Loading.</p>
-</div>
-</div>
+											<div class="nav"><label for="herramientas-img-4" class="prev">&#x2039;</label><label for="herramientas-img-6" class="next">&#x203a;</label></div>
+										</li>
 
-<h3>Desktop</h3>
-<div class="owl-carousel">
-<div class="proyect">
-<img src="https://i.postimg.cc/K84zxjyb/blogviaje.png" alt="Blog de Viaje">
-<h4>Blog de viajes.</h4>
-<p>Blog tradiccional de viajes en destinos predeterminados con diferentes apartados.</p>
-</div>
-<div class="proyect">
-<img src="https://i.postimg.cc/R0yJjf32/k10.png" alt="K10">
-<h4>k10</h4>
-<p>Sistema automatizado de loteria digital, que se compone de <br /> 15 jugadores online y un administrados.
-</p>
-</div>
-<div class="proyect">
-<img src="https://i.postimg.cc/4yNGP2fG/agenders.png" alt="Agenders">
-<h4>Agenders.</h4>
-<p>Sistema con inicio de sesión, para guardar contactos y notas importantes.</p>
-</div>
-<div class="proyect">
-<img src="https://i.postimg.cc/MKLw0Yhk/notas.png" alt="Notas">
-<h4>Calculo promedios.</h4>
-<p>Sistema para profesores online para el calculo de promedio de alumnos en base a calificaciones.</p>
-</div>
+										<input type="radio" name="radio-btn-3" id="herramientas-img-6" />
+										<li class="slide-container">
+											<div class="slide">
+												<div class="habilidad">
+													<div class="progreso">
+														<img src="assets/img/herramientas/jupyter.png" alt="jupyter">
+														<p>Jupyter</p>
+														<progress min="0" max="100" value="60"></progress>
+													</div>
+												</div>
+											</div>
 
-<div class="proyect">
-<img src="https://i.postimg.cc/Y9N2bmQ6/coferencias.png" alt="Conferencias">
-<h4>Sitio de conferencias.</h4>
-<p>Sitio web desarrollado con PHP, JavaScript y por medio de datos de la base de datos a la vez pagos con
-Paypal.
-</p>
-</div>
-<div class="proyect">
-<img src="https://i.postimg.cc/d0LpJwGY/HFA.png" alt="HFA">
-<h4>Health For All.</h4>
-<p>Sistema de clinicas <br /> orientado en la reservación de la cita, y administración.</p>
-</div>
-<div class="proyect">
-<img src="https://i.postimg.cc/bYCf8TYG/votaciones.png" alt="Votaciones">
-<h4>Votaciones System.</h4>
-<p>Calcula las el numero de votos en <br /> las partes determinadas, dando un porcentaje en el calculo.</p>
-</div>
-<div class="proyect">
-<img src="https://i.postimg.cc/wBcnr5bj/loading.jpg" alt="Loading">
-<h4>Loading.</h4>
-<p>Loading.</p>
-</div>
-</div>
+											<div class="nav"><label for="herramientas-img-5" class="prev">&#x2039;</label><label for="herramientas-img-7" class="next">&#x203a;</label></div>
+										</li>
 
-</div>
-</div>
-<div class="flecha-abajo">
-<a href="#timeline"><span class="glyphicon glyphicon-chevron-down"></span></a>
-</div>
-</div>
+										<input type="radio" name="radio-btn-3" id="herramientas-img-7" />
+										<li class="slide-container">
+											<div class="slide">
+												<div class="habilidad">
+													<div class="progreso">
+														<img src="assets/img/herramientas/spyder.png" alt="spyder">
+														<p>Spyder</p>
+														<progress min="0" max="100" value="60"></progress>
+													</div>
+												</div>
+											</div>
 
-<div class="timeline" id="timeline">
-<div class="flecha">
-<a href="#portafolio"><span class="glyphicon glyphicon-chevron-up"></span></a>
-</div>
+											<div class="nav"><label for="herramientas-img-6" class="prev">&#x2039;</label><label for="herramientas-img-8" class="next">&#x203a;</label></div>
+										</li>
 
-<div class="hero2">
-<h1 style="margin-top: 20px;">Time Line</h1>
-<div class="border-about"></div>
-</div>
+										<input type="radio" name="radio-btn-3" id="herramientas-img-8" />
+										<li class="slide-container">
+											<div class="slide">
+												<div class="habilidad">
+													<div class="progreso">
+														<img src="assets/img/herramientas/sublime.png" alt="sublime">
+														<p>Sublime text</p>
+														<progress min="0" max="100" value="95"></progress>
+													</div>
+												</div>
+											</div>
+
+											<div class="nav"><label for="herramientas-img-7" class="prev">&#x2039;</label><label for="herramientas-img-9" class="next">&#x203a;</label></div>
+										</li>
+
+										<input type="radio" name="radio-btn-3" id="herramientas-img-9" />
+										<li class="slide-container">
+											<div class="slide">
+												<div class="habilidad">
+													<div class="progreso">
+														<img src="assets/img/herramientas/vscode.png" alt="vscode">
+														<p>VS Code</p>
+														<progress min="0" max="100" value="90"></progress>
+													</div>
+												</div>
+											</div>
+
+											<div class="nav"><label for="herramientas-img-8" class="prev">&#x2039;</label><label for="herramientas-img-1" class="next">&#x203a;</label></div>
+										</li>
 
 
-<div>
-<input type="checkbox" class="read-more-statev2" id="post-v2" />
-<label for="post-v2" class="read-more-triggerv2"></label>
+										<li class="nav-dots">
+											<label for="herramientas-img-1" class="nav-dot" id="herramientas-img-dot-1"></label>
+											<label for="herramientas-img-2" class="nav-dot" id="herramientas-img-dot-2"></label>
+											<label for="herramientas-img-3" class="nav-dot" id="herramientas-img-dot-3"></label>
+											<label for="herramientas-img-4" class="nav-dot" id="herramientas-img-dot-4"></label>
+											<label for="herramientas-img-5" class="nav-dot" id="herramientas-img-dot-5"></label>
+											<label for="herramientas-img-6" class="nav-dot" id="herramientas-img-dot-6"></label>
+											<label for="herramientas-img-7" class="nav-dot" id="herramientas-img-dot-7"></label>
+											<label for="herramientas-img-8" class="nav-dot" id="herramientas-img-dot-8"></label>
+											<label for="herramientas-img-9" class="nav-dot" id="herramientas-img-dot-9"></label>
+										</li>
+									</ul>
+								</div>
 
-<ul class="read-more-wrapv2" style="list-style: none;">
-<li class="read-more-targetv2">
+								<div class="contenedor-habilidades">
+									<h3 class="indicador-habilidad">Idioma</h3>
+									<ul class="slides">
+
+										<input type="radio" name="radio-btn-2" id="idioma-img-1" checked />
+										<li class="slide-container">
+											<div class="slide">
+												<div class="habilidad">
+													<div class="progreso">
+														<img src="assets/img/idiomas/es.png" alt="Español">
+														<p>Español - Nativo</p>
+													</div>
+												</div>
+											</div>
+
+											<div class="nav"><label for="idioma-img-2" class="prev">&#x2039;</label><label for="idioma-img-2" class="next">&#x203a;</label></div>
+										</li>
+
+										<input type="radio" name="radio-btn-2" id="idioma-img-2" />
+										<li class="slide-container">
+											<div class="slide">
+												<div class="habilidad">
+													<div class="progreso">
+														<img src="assets/img/idiomas/en.png" alt="ingles">
+														<p>Ingles</p>
+														<progress min="0" max="100" value="20"></progress>
+													</div>
+												</div>
+											</div>
+
+											<div class="nav"><label for="idioma-img-1" class="prev">&#x2039;</label><label for="idioma-img-1" class="next">&#x203a;</label></div>
+										</li>
+
+										<li class="nav-dots">
+											<label for="idioma-img-1" class="nav-dot" id="idioma-img-dot-1"></label>
+											<label for="idioma-img-2" class="nav-dot" id="idioma-img-dot-2"></label>
+										</li>
+									</ul>
+								</div>
+							
+							</span>
+						</div>
+					</div>
+
+					<div class="flecha-abajo">
+						<a href="#portafolio"><span class="glyphicon glyphicon-chevron-down"></span></a>
+					</div>
+			</section>
+
+			<section class="portafolio" id="portafolio">
+				<div class="flecha">
+					<a href="#about-me"><span class="glyphicon glyphicon-chevron-up fecha-isla"></span></a>
+				</div>
+
+				<div class="portafolio-contenido">
+
+					<div class="hero-3">
+						<h1>Portafolio</h1>
+						<div class="border-hx"></div>
+					</div>
+
+					<div class="contenido">
+
+						<div class="contenedor-tab">
+						  <input type="radio" name="seleccion_tab" id="tab1" aria-controls="trabajos" checked>
+						  <label for="tab1">Trabajos</label>
+
+						  <input type="radio" name="seleccion_tab" id="tab2" aria-controls="universidad">
+						  <label for="tab2">Universidad</label>
+
+						  <input type="radio" name="seleccion_tab" id="tab3" aria-controls="personal">
+						  <label for="tab3">Personal</label>
+						  
+							<div class="contenedor-tabs">
+								<div id="trabajos" class="contenido-tab">
+									<div class="contenedor-carousel">
+										<div class="owl-carousel">
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/empleoworkers.png" alt="empleoworkers">
+													<div class="item-detalles">
+														<a href="https://empleoworkers.com/" target="_blank" class="ver"><i class="fa fa-share-square" aria-hidden="true"></i></a>
+														<p class="nombre">Empleo Workers</p>
+
+														<div class="detalles-mas">
+															<p class="tecnologias">Implementando <span>PHP - MySQL</span></p>
+															<p class="tecnologias">Colaborando con <a href="https://www.jpchost.com/" target="_blank">Man-go</a></p>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/micasa.png" alt="micasa">
+													<div class="item-detalles">
+														<a href="https://micasa.com.sv/" target="_blank" class="ver"><i class="fa fa-share-square" aria-hidden="true"></i></a>
+														<p class="nombre">Mi Casa</p>
+
+														<div class="detalles-mas">
+															<p class="tecnologias">Implementando <span>PHP - MySQL</span></p>
+															<p class="tecnologias">Colaborando con <a href="https://www.jpchost.com/" target="_blank">Man-go</a></p>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/multielsalvador.png" alt="multielsalvador">
+													<div class="item-detalles">
+														<a href="https://multielsalvador.com.sv/" target="_blank" class="ver"><i class="fa fa-share-square" aria-hidden="true"></i></a>
+														<p class="nombre">Multi El Salvador</p>
+
+														<div class="detalles-mas">
+															<p class="tecnologias">Implementando <span>PHP - MySQL - APIs</span></p>
+															<p class="tecnologias">Colaborando con <a href="https://www.jpchost.com/" target="_blank">Man-go</a></p>
+														</div>
+													</div>
+												</div>
+											</div>
 
 
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/pideya.png" alt="pideya">
+													<div class="item-detalles">
+														<a href="https://pideya.com.sv/" target="_blank" class="ver"><i class="fa fa-share-square" aria-hidden="true"></i></a>
+														<p class="nombre">Pide Ya</p>
 
-</li>
-</ul>
+														<div class="detalles-mas">
+															<p class="tecnologias">Implementando <span>PHP - MySQL</span></p>
+															<p class="tecnologias">Colaborando con <a href="https://www.jpchost.com/" target="_blank">Man-go</a></p>
+														</div>
+													</div>
+												</div>
+											</div>
 
-</div>
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/superexpresssv.png" alt="superexpresssv">
+													<div class="item-detalles">
+														<a href="https://superexpresssv.com.sv/" target="_blank" class="ver desabilitado"><i class="fa fa-share-square" aria-hidden="true"></i></a>
+														<p class="nombre">Super Express</p>
 
+														<div class="detalles-mas">
+															<p class="tecnologias">Implementando <span>PHP - MySQL - Reportes</span></p>
+															<p class="tecnologias">Colaborando con <a href="https://www.jpchost.com/" target="_blank">Man-go</a></p>
+														</div>
+													</div>
+												</div>
+											</div>
 
-<div class="flecha-abajo">
-<a href="#contact"><span class="glyphicon glyphicon-chevron-down"></span></a>
-</div>
-</div>
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/mbnaturals.png" alt="mbnaturals">
+													<div class="item-detalles">
+														<a href="https://mbnaturals.com.sv/" target="_blank" class="ver desabilitado"><i class="fa fa-share-square" aria-hidden="true"></i></a>
+														<p class="nombre">MB Naturals</p>
 
-<div class="contact" id="contact">
-<div class="flecha">
-<a href="#timeline"><span class="glyphicon glyphicon-chevron-up"></span></a>
-</div>
-<div class="contenido">
-<div class="hero4">
-<h1>Contacto</h1>
-<div class="border-about"></div>
-</div>
-<div class="contacto">
-<div class="entrada">
-<i class="fas fa-envelope-open-text"></i>
-<p>Fernandocuatrorivera@gmail.com</p>
-</div>
-<div class="entrada">
-<i class="fas fa-globe-americas"></i>
-<div class="nav">
-<nav>
-<ul>
-<li><a href="#home" style="padding: 5px 20px;"><i class="fas fa-home"></i></a></li>
-<li><a href="#about" style="padding: 5px 20px;"><i class="fas fa-portrait"></i></a></li>
-<li><a href="#portafolio" style="padding: 5px 20px;"><i class="fas fa-folder-open"></i></a></li>
-<li><a href="#timeline" style="padding: 5px 20px;"><i class="fas fa-user-clock"></i></a></li>
-</ul>
-</nav>
-</div>
-</div>
-<div class="entrada">
-<i class="fas fa-map-marker-alt"></i>
-<p>Lourdes Colón, La liberlad.</p>
-</div>
-</div>
-</div>
+														<div class="detalles-mas">
+															<p class="tecnologias">Implementando <span>Arquitectura web - PHP</span></p>
+															<p class="tecnologias">Colaborando con <a href="https://www.jpchost.com/" target="_blank">Man-go</a></p>
+														</div>
+													</div>
+												</div>
+											</div>
 
-<div id="preloder">
-<div class="loader"></div>
-</div>
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/mamanina.png" alt="mamanina">
+													<div class="item-detalles">
+														<a href="https://mamanina.com.sv/" target="_blank" class="ver desabilitado"><i class="fa fa-share-square" aria-hidden="true"></i></a>
+														<p class="nombre">Mamá Nina</p>
 
-<div class="social">
-<div class="link"><a href="https://www.facebook.com/fernandocuatrorivera/" target="_blank" ><i class="fab fa-facebook-f"></i></a></div>
-<div class="link"><a href="https://twitter.com/FernandoCuatro" target="_blank"><i class="fab fa-twitter"></i></a></div>
-<div class="link"><a href="www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
-<div class="link"><a href="https://es.stackoverflow.com/" target="_blank"><i class="fab fa-stack-overflow"></i></a></div>
-<div class="link"><a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a></div>
-<div class="link"><a href="https://codepen.io/" target="_blank"><i class="fab fa-codepen"></i></a></div>
-<div class="link"><a href="mailto:fernandocuatrorivera@gmail.com" target="_blank"><i class="fas fa-at"></i></a></div>
-<div class="link"><a href=" https://www.instagram.com/miguelcuatro.js/ " target="_blank"><i class="fab fa-instagram"></i></a></div>
-</div>
-</div>
-<script src="https://kit.fontawesome.com/d21a3be417.js" crossorigin="anonymous"></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/owl.carousel.min.js'></script>
-<script src=" ./script.js"> </script> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-</body>
+														<div class="detalles-mas">
+															<p class="tecnologias">Implementando <span>Arquitectura web - PHP</span></p>
+															<p class="tecnologias">Colaborando con <a href="https://www.jpchost.com/" target="_blank">Man-go</a></p>
+														</div>
+													</div>
+												</div>
+											</div>
 
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/ferrufino.png" alt="ferrufino">
+													<div class="item-detalles">
+														<a href="https://ferrufino.com.sv/" target="_blank" class="ver desabilitado"><i class="fa fa-share-square" aria-hidden="true"></i></a>
+														<p class="nombre">FerruFino</p>
+
+														<div class="detalles-mas">
+															<p class="tecnologias">Implementando <span>Arquitectura web - PHP</span></p>
+															<p class="tecnologias">Colaborando con <a href="https://www.jpchost.com/" target="_blank">Man-go</a></p>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/anasalon.png" alt="anasalon">
+													<div class="item-detalles">
+														<a href="https://anasalon.com.sv/" target="_blank" class="ver desabilitado"><i class="fa fa-share-square" aria-hidden="true"></i></a>
+														<p class="nombre">Ana Salon</p>
+
+														<div class="detalles-mas">
+															<p class="tecnologias">Implementando <span>Arquitectura web - PHP</span></p>
+															<p class="tecnologias">Colaborando con <a href="https://www.jpchost.com/" target="_blank">Man-go</a></p>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/control.png" alt="control">
+													<div class="item-detalles">
+														<a href="https://administracion-escalable.com.sv/" target="_blank" class="ver desabilitado"><i class="fa fa-share-square" aria-hidden="true"></i></a>
+														<p class="nombre">Administrador</p>
+
+														<div class="detalles-mas">
+															<p class="tecnologias">Implementando <span>PHP - MySQL - Reportes - APIs - Escalable - Manejo de ficheros</span></p>
+															<p class="tecnologias">Colaborando con <a href="https://www.jpchost.com/" target="_blank">Man-go</a></p>
+														</div>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+
+								<div id="universidad" class="contenido-tab">
+									<div class="contenedor-carousel">
+										<div class="owl-carousel">
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/tecnotes.png" alt="tecnotes">
+													<div class="item-detalles">
+														<p class="nombre">TecNotes</p>
+														<p class="tecnologias">Implementando <span>C# - Form - SQLServer - LinQ - Storage Procedure</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/chilin.png" alt="chilin">
+													<div class="item-detalles">
+														<a href="assets/descargas/chillin.pdf" download="chillin[mockups].pdf" class="ver" target="_blank"><i class="fa fa-download" aria-hidden="true"></i></a>
+														<p class="nombre">Pupuseria Chillin</p>
+														<p class="tecnologias">Implementando <span>Exclusivamente para móviles - PHP - MySQL</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/alpaso.png" alt="alpaso">
+													<div class="item-detalles">
+														<p class="nombre">Al Paso</p>
+														<p class="tecnologias">Implementando <span>Estructura Web - PHP - HeidiSQL</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/nm_a.png" alt="nm_a">
+													<div class="item-detalles">
+														<p class="nombre">Millenium Calendar</p>
+														<p class="tecnologias">Implementando <span>ASP.NET - C# - SQLServer - WCF</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/tecnotes_j.png" alt="tecnotes_j">
+													<div class="item-detalles">
+														<p class="nombre">TecNotes</p>
+														<p class="tecnologias">Implementando <span>Java - Swing - MySQL - SP</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/mc_j.png" alt="mc_j">
+													<div class="item-detalles">
+														<p class="nombre">Millenium Calendar</p>
+														<p class="tecnologias">Implementando <span>Java - JSP - JSF - MySQL - SP</span></p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div id="personal" class="contenido-tab">
+									<div class="contenedor-carousel">
+										<div class="owl-carousel">
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/agenders.png" alt="agenders">
+													<div class="item-detalles">
+														<p class="nombre">Agenders</p>
+														<p class="tecnologias">Implementando <span>Estructura web - PHP - MySQL</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/blogviaje.png" alt="blogviaje">
+													<div class="item-detalles">
+														<p class="nombre">Blog Viaje</p>
+														<p class="tecnologias">Implementando <span>Estructura web - JavaScript</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/coferencias.png" alt="coferencias">
+													<div class="item-detalles">
+														<p class="nombre">Sistema de conferencias</p>
+														<p class="tecnologias">Implementando <span>PHP - JavaScript - Json - MySQL - APIs - Reportes</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/HFA.png" alt="HFA">
+													<div class="item-detalles">
+														<p class="nombre">Salud para todos</p>
+														<p class="tecnologias">Implementando <span>PHP - JavaScript - MySQL</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/k10.png" alt="k10">
+													<div class="item-detalles">
+														<p class="nombre">Lotería K10</p>
+														<p class="tecnologias">Implementando <span>PHP - JavaScript - MySQL</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/notas.png" alt="notas">
+													<div class="item-detalles">
+														<p class="nombre">Calculo calificaciones</p>
+														<p class="tecnologias">Implementando <span>Estructura web - PHP</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/votaciones.png" alt="votaciones">
+													<div class="item-detalles">
+														<p class="nombre">Visor de votaciones</p>
+														<p class="tecnologias">Implementando <span>Estructura web - PHP</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/controlclientes.png" alt="controlclientes">
+													<div class="item-detalles">
+														<p class="nombre">Control de clientes</p>
+														<p class="tecnologias">Implementando <span>Estructura web - Java - MySQL - JSP</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/aeropuerto.png" alt="aeropuerto">
+													<div class="item-detalles">
+														<p class="nombre">Gestión aeropuerto</p>
+														<p class="tecnologias">Implementando <span>Java - Swing - MySQL</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/manejo_usuarios.png" alt="manejo_usuarios">
+													<div class="item-detalles">
+														<p class="nombre">Manejo usuarios</p>
+														<p class="tecnologias">Implementando <span>Java - Swing - MySQL</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/landing.png" alt="landing">
+													<div class="item-detalles">
+														<p class="nombre">Landing page</p>
+														<p class="tecnologias">Implementando <span>HTML - CSS - Flexbox</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/paginacursos.png" alt="paginacursos">
+													<div class="item-detalles">
+														<p class="nombre">Vista de cursos</p>
+														<p class="tecnologias">Implementando <span>HTML - CSS - Flexbox</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/viajes.png" alt="viajes">
+													<div class="item-detalles">
+														<p class="nombre">Guia de viajes</p>
+														<p class="tecnologias">Implementando <span>HTML - CSS - Flexbox</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/uptask.png" alt="uptask">
+													<div class="item-detalles">
+														<p class="nombre">Uptask</p>
+														<p class="tecnologias">Implementando <span>PHP - AJAX - Json</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/contactos.png" alt="contactos">
+													<div class="item-detalles">
+														<p class="nombre">Gestión básica contactos</p>
+														<p class="tecnologias">Implementando <span>PHP - AJAX - Javascript</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/paint.png" alt="paint">
+													<div class="item-detalles">
+														<p class="nombre">Paint</p>
+														<p class="tecnologias">Implementando <span>Javascript - Canvas - JQuery</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/gestorimagen.png" alt="gestorimagen">
+													<div class="item-detalles">
+														<p class="nombre">Gestor de imágenes</p>
+														<p class="tecnologias">Implementando <span>PHP - SQLServer</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/blog.png" alt="blog">
+													<div class="item-detalles">
+														<p class="nombre">Blog completo</p>
+														<p class="tecnologias">Implementando <span>PHP - MySQL - Js</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/contador.png" alt="contador">
+													<div class="item-detalles">
+														<p class="nombre">Contador visitas</p>
+														<p class="tecnologias">Implementando <span>PHP - archivo base txt</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/galeria_p.png" alt="galeria_p">
+													<div class="item-detalles">
+														<p class="nombre">Galeria</p>
+														<p class="tecnologias">Implementando <span>PHP - MySQL - manejo de ficheros</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/login.png" alt="login">
+													<div class="item-detalles">
+														<p class="nombre">Login documentado</p>
+														<p class="tecnologias">Implementando <span>PHP - MySQL</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/gestionalumnos.png" alt="gestionalumnos">
+													<div class="item-detalles">
+														<p class="nombre">Gestión alumnos</p>
+														<p class="tecnologias">Implementando <span>PHP - MySQL - reportes</span></p>
+													</div>
+												</div>
+											</div>
+
+											<div class="item">
+												<p class="mas"><i class="fa fa-info-circle" aria-hidden="true"></i><br/>No se presentan algunos proyectos porque exceden el espacio.</p>
+											</div>
+
+											<div class="item">
+												<div class="contenido-item">
+												<img src="assets/img/portafolio/reciclapp.png" alt="reciclapp">
+													<div class="item-detalles">
+														<p class="nombre">ReciclApp</p>
+														<p class="tecnologias">Implementando <span>PHP - MySQL - Arduido - Maps - Reportes - QR</span></p>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+
+								<div class="pendientes">
+									<a href="pendientes.txt" download="pendientes.txt" target="_blank"><i class="fa fa-cloud-upload" aria-hidden="true"></i> Pendientes portafolio</a>
+								</div>
+							
+							</div>
+
+						<div class="hero-4">
+							<h1>Diplomas</h1>
+						</div>
+
+						<ul class="slides diplomas">
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-1" checked />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/beca.jpg" alt="beca">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-31" class="prev">&#x2039;</label><label for="diplomas-img-2" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-2" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/hackaton.jpg" alt="hackaton">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-1" class="prev">&#x2039;</label><label for="diplomas-img-3" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-3" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/videojuego.jpg" alt="videojuego">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-2" class="prev">&#x2039;</label><label for="diplomas-img-4" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-4" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/code.jpg" alt="code">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-3" class="prev">&#x2039;</label><label for="diplomas-img-5" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-5" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/k10.jpg" alt="k10">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-4" class="prev">&#x2039;</label><label for="diplomas-img-6" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-6" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/project.jpg" alt="project">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-5" class="prev">&#x2039;</label><label for="diplomas-img-7" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-7" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/telefono.jpg" alt="telefono">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-6" class="prev">&#x2039;</label><label for="diplomas-img-8" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-8" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/mobiles.png" alt="mobiles">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-7" class="prev">&#x2039;</label><label for="diplomas-img-9" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-9" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/backend.jpg" alt="backend">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-8" class="prev">&#x2039;</label><label for="diplomas-img-10" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-10" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/db.jpg" alt="db">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-9" class="prev">&#x2039;</label><label for="diplomas-img-11" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-11" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/backend_c.jpg" alt="backend_c">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-10" class="prev">&#x2039;</label><label for="diplomas-img-12" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-12" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/software.jpg" alt="software">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-11" class="prev">&#x2039;</label><label for="diplomas-img-13" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-13" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/aprender.jpg" alt="aprender">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-12" class="prev">&#x2039;</label><label for="diplomas-img-14" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-14" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/fundamentos_node.jpg" alt="fundamentos_node">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-13" class="prev">&#x2039;</label><label for="diplomas-img-15" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-15" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/asincronismo_js.jpg" alt="asincronismo_js">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-14" class="prev">&#x2039;</label><label for="diplomas-img-16" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-16" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/backend_nodejs.jpg" alt="backend_nodejs">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-15" 4class="prev">&#x2039;</label><label for="diplomas-img-17" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-17" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/basico_javascript.jpg" alt="basico_javascript">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-16" 4class="prev">&#x2039;</label><label for="diplomas-img-18" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-18" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/ecmascript_6.jpg" alt="ecmascript_6">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-17" 4class="prev">&#x2039;</label><label for="diplomas-img-19" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-19" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/frontend.jpg" alt="frontend">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-18" 4class="prev">&#x2039;</label><label for="diplomas-img-20" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-20" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/fundamentos_javascript.jpg" alt="fundamentos_javascript">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-19" 4class="prev">&#x2039;</label><label for="diplomas-img-21" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-21" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/ssr.jpg" alt="ssr">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-20" 4class="prev">&#x2039;</label><label for="diplomas-img-22" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-22" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/gestion.jpg" alt="gestion">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-21" 4class="prev">&#x2039;</label><label for="diplomas-img-23" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-23" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/gestion_tiempo.jpg" alt="gestion_tiempo">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-22" 4class="prev">&#x2039;</label><label for="diplomas-img-24" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-24" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/git_github.jpg" alt="git_github">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-23" 4class="prev">&#x2039;</label><label for="diplomas-img-25" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-25" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/javascript_profesional.jpg" alt="javascript_profesional">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-24" 4class="prev">&#x2039;</label><label for="diplomas-img-26" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-26" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/passport.jpg" alt="passport">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-25" 4class="prev">&#x2039;</label><label for="diplomas-img-27" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-27" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/prework.jpg" alt="prework">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-26" 4class="prev">&#x2039;</label><label for="diplomas-img-28" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-28" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/react_ejs.jpg" alt="react_ejs">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-27" 4class="prev">&#x2039;</label><label for="diplomas-img-29" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-29" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/react_router_redux.jpg" alt="react_router_redux">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-28" 4class="prev">&#x2039;</label><label for="diplomas-img-30" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-30" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/relato.jpg" alt="relato">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-29" 4class="prev">&#x2039;</label><label for="diplomas-img-31" class="next">&#x203a;</label></div>
+							</li>
+
+							<input type="radio" name="radio-btn-5" id="diplomas-img-31" />
+							<li class="slide-container diplomas">
+								<div class="slide">
+									<div class="diploma-contenedor">
+										<img src="assets/img/diplomas/ms_db.jpg" alt="ms_db">
+									</div>
+								</div>
+								<div class="nav"><label for="diplomas-img-30" 4class="prev">&#x2039;</label><label for="diplomas-img-1" class="next">&#x203a;</label></div>
+							</li>
+
+							<li class="nav-dots">
+								<label for="diplomas-img-1" class="nav-dot" id="diplomas-img-dot-1"></label>
+								<label for="diplomas-img-2" class="nav-dot" id="diplomas-img-dot-2"></label>
+								<label for="diplomas-img-3" class="nav-dot" id="diplomas-img-dot-3"></label>
+								<label for="diplomas-img-4" class="nav-dot" id="diplomas-img-dot-4"></label>
+								<label for="diplomas-img-5" class="nav-dot" id="diplomas-img-dot-5"></label>
+								<label for="diplomas-img-6" class="nav-dot" id="diplomas-img-dot-6"></label>
+								<label for="diplomas-img-7" class="nav-dot" id="diplomas-img-dot-7"></label>
+								<label for="diplomas-img-8" class="nav-dot" id="diplomas-img-dot-8"></label>
+								<label for="diplomas-img-9" class="nav-dot" id="diplomas-img-dot-9"></label>
+								<label for="diplomas-img-10" class="nav-dot" id="diplomas-img-dot-10"></label>
+								<label for="diplomas-img-11" class="nav-dot" id="diplomas-img-dot-11"></label>
+								<label for="diplomas-img-12" class="nav-dot" id="diplomas-img-dot-12"></label>
+								<label for="diplomas-img-13" class="nav-dot" id="diplomas-img-dot-13"></label>
+								<label for="diplomas-img-14" class="nav-dot" id="diplomas-img-dot-14"></label>
+								<label for="diplomas-img-15" class="nav-dot" id="diplomas-img-dot-15"></label>
+								<label for="diplomas-img-16" class="nav-dot" id="diplomas-img-dot-16"></label>
+								<label for="diplomas-img-17" class="nav-dot" id="diplomas-img-dot-17"></label>
+								<label for="diplomas-img-18" class="nav-dot" id="diplomas-img-dot-18"></label>
+								<label for="diplomas-img-19" class="nav-dot" id="diplomas-img-dot-19"></label>
+								<label for="diplomas-img-20" class="nav-dot" id="diplomas-img-dot-20"></label>
+								<label for="diplomas-img-21" class="nav-dot" id="diplomas-img-dot-21"></label>
+								<label for="diplomas-img-22" class="nav-dot" id="diplomas-img-dot-22"></label>
+								<label for="diplomas-img-23" class="nav-dot" id="diplomas-img-dot-23"></label>
+								<label for="diplomas-img-24" class="nav-dot" id="diplomas-img-dot-24"></label>
+								<label for="diplomas-img-25" class="nav-dot" id="diplomas-img-dot-25"></label>
+								<label for="diplomas-img-26" class="nav-dot" id="diplomas-img-dot-26"></label>
+								<label for="diplomas-img-27" class="nav-dot" id="diplomas-img-dot-27"></label>
+								<label for="diplomas-img-28" class="nav-dot" id="diplomas-img-dot-28"></label>
+								<label for="diplomas-img-29" class="nav-dot" id="diplomas-img-dot-29"></label>
+								<label for="diplomas-img-30" class="nav-dot" id="diplomas-img-dot-30"></label>
+								<label for="diplomas-img-31" class="nav-dot" id="diplomas-img-dot-31"></label>
+							</li>
+						</ul>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="flecha-abajo">
+					<a href="#timeline"><span class="glyphicon glyphicon-chevron-down fecha-isla"></span></a>
+				</div>
+			</section>
+
+			<section class="timeline" id="timeline">
+				<div class="flecha">
+					<a href="#portafolio"><span class="glyphicon glyphicon-chevron-up"></span></a>
+				</div>
+				<div class="hero-4">
+					<h1>Timeline</h1>
+					<div class="border-hx"></div>
+				</div>
+
+				<div class="contenedor-timeline">
+					<ul class="timeline timeline-horizontal">
+						<li class="timeline-item">
+							<div class="timeline-badge icon"><i class="glyphicon glyphicon-ok"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4 class="timeline-title">Noviembre, 2019</h4>
+								</div>
+								<div class="timeline-body">
+									<p>Graduado de bachillerato técnico vocacional en desarrollo de Software, en el INAC.</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="timeline-item">
+							<div class="timeline-badge icon"><i class="glyphicon glyphicon-star-empty destacado"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4 class="timeline-title">Noviembre, 2019</h4>
+								</div>
+								<div class="timeline-body">
+									<p>Galardonado como bachiller integral de la promoción 2019.</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="timeline-item">
+							<div class="timeline-badge icon"><i class="glyphicon glyphicon-pushpin"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4 class="timeline-title">Diciembre, 2019</h4>
+								</div>
+								<div class="timeline-body">
+									<p>Becado a una carrera universitaria por grupo Brito.</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="timeline-item">
+							<div class="timeline-badge icon"><i class="glyphicon glyphicon-pushpin"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4 class="timeline-title">Diciembre, 2019</h4>
+								</div>
+								<div class="timeline-body">
+									<p>Becado por la secretaria de innovación de El Salvador para realizar el Bootcamp de creación de videojuegos por medio de conexión.</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="timeline-item">
+							<div class="timeline-badge icon"><i class="glyphicon glyphicon-ok destacado"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4 class="timeline-title">Diciembre, 2019</h4>
+								</div>
+								<div class="timeline-body">
+									<p>Visita a casa presidencial de El Salvador para presentación de proyectos, <a href="https://twitter.com/Innovacion_SV/status/1208087375924154368?s=20&t=tZ5iqYU6BrTmIVT4wpvpyQ" target="_blank">ver aquí</a>.</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="timeline-item">
+							<div class="timeline-badge icon"><i class="glyphicon glyphicon-book destacado"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4 class="timeline-title">Enero, 2020</h4>
+								</div>
+								<div class="timeline-body">
+									<p>Inicio de carrera universitaria de ingeniería en sistemas informáticos y computación, <a href="https://fernadocuatro.github.io/universidad/" target="_blank">más información</a>.</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="timeline-item">
+							<div class="timeline-badge icon"><i class="glyphicon glyphicon-folder-open"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4 class="timeline-title">Mayo, 2020</h4>
+								</div>
+								<div class="timeline-body">
+									<p>Diplomado en relato deportivo y producción audiovisual, <a href="https://twitter.com/DGalvez23_/status/1263164786356994049?s=20&t=Qy0w8wykt9wJMiwjtAv86Q" target="_blank">información</a>.</p>
+								</div>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+
+				<div class="cv">
+					<a href="assets/descargas/CV_F4.pdf" download="CV_F4.pdf" target="_blank"><i class="fa fa-cloud-upload" aria-hidden="true"></i> Descargar CV</a>
+				</div>
+
+				<div class="flecha-abajo flecha-timeline">
+					<a href="#contact"><span class="glyphicon glyphicon-chevron-down fecha-isla"></span></a>
+				</div>
+			</section>
+
+			<div class="wave"><svg viewBox="0 0 500 150" preserveAspectRatio="none"><path d="M0.00,49.98 C242.37,-84.36 398.14,220.56 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"></path></svg></div>
+		</main>
+
+		<footer class="contacto" id="contact">
+			<div class="contenido">
+				<div class="hero-5">
+					<h1>Contacto</h1>
+				</div>
+
+				<div class="contenido-footer">
+					<div class="contenedor-footer">
+						<img src="assets/img/tarjeta_presentacion.png" alt="tarjeta_presentacion">
+
+						<div class="email">
+							<a href="mailto:fernandocuatrorivera@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> Enviar correo electrónico</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="social">
+				<a href="https://www.facebook.com/fernandocuatrorivera/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+				<a href="https://twitter.com/FernandoCuatro" target="_blank"><i class="fab fa-twitter"></i></a>
+				<a href="https://github.com/FernadoCuatro" target="_blank"><i class="fab fa-github"></i></a>
+				<a href="https://codepen.io/FernandoCuatro" target="_blank"><i class="fab fa-codepen"></i></a>
+				<a href="https://www.instagram.com/miguel_cuatro/" target="_blank"><i class="fab fa-instagram"></i></a>
+			</div>
+		</footer>
+
+		<div id="preloder">
+			<div class="loader"></div>
+		</div>
+
+		<!-- Externas -->
+		<script src="https://kit.fontawesome.com/d21a3be417.js" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/owl.carousel.min.js'></script>
+
+		<!-- Local -->
+		<script src=" assets/js/script.js"></script>
+		<script src=" assets/js/hero.js"></script>
+
+	</body>
 </html>

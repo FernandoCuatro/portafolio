@@ -1,0 +1,10 @@
+- Modo oscuro automático con localStorage.
+
+
+
+
+
+
+
+
+Última actualización octubre, 2022.
